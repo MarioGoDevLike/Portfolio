@@ -1,0 +1,59 @@
+.html{
+    margin: 0;
+    padding: 0;
+}
+.navbar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+}
+.myLogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    height: 100vh;
+    justify-content: center;
+    width: 60px;
+}
+.navbar a{
+        font-size: 22px;
+        color: #4d4d4e;
+        display: block;
+        line-height: 51px;
+        height: 71px;
+        position: relative;
+        text-decoration: none;
+}
+
+.navbar a path:hover{
+    transition: all 0.3s ease-out;
+    color: #ffd700;
+    opacity: 1;
+}
+.navbar a path::after{
+    content:'';
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.navbar a path:first-child{
+}
+
