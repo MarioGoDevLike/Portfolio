@@ -1,0 +1,27 @@
+.html{
+    font-family: 'La Belle Aurore';
+}
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+}
+.text-container{
+    
+}
+
+.home-container h1{
+    color: #fff;
+    font-size: 60px;
+    margin: 0;
+    font-family: 'Coolvetica';
+}
+.home-container h2{
+    font-size: 17px;
+}

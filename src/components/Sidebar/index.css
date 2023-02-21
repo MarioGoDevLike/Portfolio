@@ -6,17 +6,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
+    width: 90px;
     height: 100%;
     overflow: hidden;
+    z-index: 100;
     position: absolute;
 }
 .myLogo{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 120px;
 }
 
 .navbar{
@@ -43,17 +44,26 @@
     color: #ffd700;
     opacity: 1;
 }
-.navbar a path::after{
-    content:'';
-    letter-spacing: 2px;
+
+.socials-container{
     position: absolute;
-    bottom: 0;
-    display: block;
+    bottom: 20px;
     width: 100%;
+    display: block;
+    padding: 0;
+    list-style: none;
     text-align: center;
-    opacity: 0;
-    transition: all 0.3s ease-out;
+    margin: 0;
 }
-.navbar a path:first-child{
+li a{
+    padding: 7px 0;
+    display: block;
+    font-size: 15px;
+    line-height: 16px;
+}   
+
+li svg:hover{
+    color: #ffd700;
 }
+
 
