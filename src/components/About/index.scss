@@ -1,0 +1,113 @@
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;  
+    font-size: 13px;
+    padding-bottom: 100px;
+}
+
+.p-container{ 
+    display: table-cell;
+    vertical-align: middle  ;
+    font-size: 18px;
+    font-style: 13px;
+    width: 50vw;
+    color: #ffffff;
+    opacity: 0.6;
+    line-height: 30px;
+    font-family: 'helvetica';
+    font-weight: 300;
+    min-width: fit-content;
+    animation-fill-mode: forwards;
+}
+
+.Aboutme{
+    font-size: 70px;
+    color: #FFF;
+    font-family: "helvetica";
+    animation-fill-mode: forwards;
+}
+
+.p-container p:nth-child(1){
+    animation: fadeIn 3s;
+}
+.p-container p:nth-child(2){
+    animation: fadeIn 4s;
+}
+.p-container p:nth-child(3){
+    animation: fadeIn 5s;
+}
+
+.stage-cube-container{
+    width: 50%;
+    height: 100%;
+    top:0;
+    padding-top: 18%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+.cubespinner{
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
+
+    div{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background:rgba(255,255,255, 0.4);
+        font-size: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow;
+    }
+    .face1{
+        transform: translateZ(100px);
+    }
+    .face2{
+        transform: rotateY(90deg) translateZ(100px);
+    }
+    .face3{
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    }
+    .face4{
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    }
+    .face5{
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    }
+    .face6{
+        transform: rotateX(-90deg) translateZ(100px);
+    }
+
+}
+@keyframes spincube{
+    from,
+    to{
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16%{
+        transform: rotateY(-90deg);
+    }
+    33%{
+        transform: rotateY(-90deg) rotateZ(90d  eg);
+    }
+    50%{
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66%{
+        transform: rotateY(-270deg) rotateZ(90deg);
+    }
+    83%{
+        transform: rotateX(90deg);
+    }
+}

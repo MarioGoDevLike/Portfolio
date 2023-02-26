@@ -4,7 +4,6 @@
     animation: bounceIn 1s 1s;
     animation-fill-mode: forwards;
     min-width: 10px;
-
 }
 
 .text-animate-hover:hover{
@@ -14,8 +13,10 @@
     animation: rubberBand 1s;
     color: #ffd700;
 }
+
 @for $i from 1 through 35{
     .text-animate._#{$i}{
         animation-delay:#{$i / 10}s;
     }
 }
+

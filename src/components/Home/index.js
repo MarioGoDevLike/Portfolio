@@ -8,8 +8,8 @@ import {useEffect, useState} from 'react';
 const Home = () =>{
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [' ','M','a','r','i','o']
-    const jobArray = ['w','e','b',' ','d','e','v','e','l','o','p','e','r','.']
+    const nameArray = [' ','M', 'a','r','i','o']
+    const jobArray = ['w','e','b',' ', 'd','e','v','e','l','o','p','e','r','.']
     
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -22,7 +22,7 @@ const Home = () =>{
     <div className="container">
         <div className="home-container">
             <div className="text-container">
-                <h1>
+                <h1 className="info">
                     <span className={letterClass}>H</span>
                     <span className={`${letterClass} _12`}>i,</span>
                     <br />
@@ -43,7 +43,7 @@ const Home = () =>{
             </div>
         </div>
         <div className="image-container">            
-                <img className="myImage" src={myPicture} alt="myPicture"/>
+                <img src={myPicture} alt="myPicture" className="myImage"/>
         </div>
     </div>
 

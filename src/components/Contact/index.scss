@@ -1,0 +1,81 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+    width: 100vw;
+    margin-left: 100px;
+
+}
+.text-zone{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "helvetica";
+}
+.contactme{
+    font-size: 60px;
+    margin-bottom: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-zone p{
+    width: 50vw;
+    font-size: 20px;
+    animation: bounceIn 0.6s 0.6s;
+}
+
+.form-container{
+    padding: 0;
+    list-style: none;
+    line-height: 50px;
+    animation: bounceIn 0.6s 0.6s;
+}
+
+.mainInfos{
+    display: flex;
+    flex-direction: row;
+    width: 23.2vw;
+    justify-content: space-between;
+}
+
+.subject-cont{
+    width:22.9vw;
+}
+.message-cont{
+    width: 22.9vw;
+}
+input, textarea{
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    opacity: 0.6;
+}
+
+textarea{
+    min-height: 150px;
+}
+
+.btn_submit{
+    width: 23.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}   
+.flat-button{
+    background:0 0;
+    font:11px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+Main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.map-wrap{
+}
