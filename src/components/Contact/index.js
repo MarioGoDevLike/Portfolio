@@ -75,7 +75,7 @@ const Contact = () => {
 
                 </div>
             </div>
-            <div className='map-wrap'>
+            <div className='map-wrap'>d
             </div>
         </div>
     )}

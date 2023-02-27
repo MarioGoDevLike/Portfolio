@@ -2,12 +2,10 @@
     height: 100vh;
 }
 .home-container{
-    margin-left: 100px;
     z-index: 1;
     transform-style: preserve-3d;
     animation: fadeIn 1s forwards;
 }
-
 .home-container h1{
     color: #fff;
     font-size: 60px;
@@ -19,17 +17,23 @@
 }
 
 .container{
-    width: 100vw;
+    width: 75vw;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 50px;
 }
 
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+
 .myImage{
-    width: 40vw;
-    height: 60vh;
-    margin-left: 100px;
+    width: 500px;
+    display: flex;
+    height: 500pxs;
 }
 .h2front{
     padding-bottom: 20px;
@@ -48,9 +52,73 @@
     white-space: nowrap;
 }
 
+
+
 .contact-button:hover{
     background-color: #ffd700;
     color: black;
     transform-style: preserve-3d;
     animation: bounceIn 1s forwards;
+}
+
+@media only screen and (max-width: 1260px){
+    .myImage{
+        width: 400px;
+        height: 400px;
+    }
+    .home-container h1{
+        font-size: 45px;
+    }
+    .work h2{
+        font-size: 20px;
+    }    
+    .contact-button{
+
+    }
+}
+
+@media only screen and (max-width:1090px){
+    .myImage{
+        width: 250px;
+        height: 250px;
+        margin-left: 20px;
+    }
+    .home-container h1{
+        font-size: 5vw;
+    }
+    .work h2{
+        font-size: 2vw;
+    }   
+}
+
+@media only screen and (max-width:800px){
+    .myImage{
+        width: 150px;
+        height: 150px;
+    }
+    .home-container h1{
+        font-size: 4vw;
+    }
+    .work h2{
+        font-size: 2vw;
+    }  
+    .contact-button{
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width:520px){
+    .myImage{
+        width: 100px;
+        height: 100px;
+    }
+    .home-container h1{
+        font-size: 3vw;
+    }
+    .work h2{
+        font-size: 2vw;
+    }  
+    .contact-button{
+        padding: 5px;
+    }
 }
