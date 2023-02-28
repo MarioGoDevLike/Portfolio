@@ -12,15 +12,18 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
+.text-container{
+    
+}
 .home-container h2{
     font-size: 17px;
 }
 
 .container{
-    width: 75vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-left: 50px;
 }
@@ -76,9 +79,17 @@
 }
 
 @media only screen and (max-width:1090px){
+    .container{
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
+    }
     .myImage{
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         margin-left: 20px;
     }
     .home-container h1{
@@ -90,9 +101,17 @@
 }
 
 @media only screen and (max-width:800px){
+    .container{
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 50px;
+    }
     .myImage{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
     .home-container h1{
         font-size: 4vw;
@@ -107,12 +126,21 @@
 }
 
 @media only screen and (max-width:520px){
+    .container{
+        display: flex;
+        height: 80vh;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .image-container{
+        height: 0vh;
+    }
     .myImage{
-        width: 130px;
-        height: 130px;
+        width: 230px;
+        height: 230px;
     }
     .home-container h1{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .work h2{
         font-size: 2vw;

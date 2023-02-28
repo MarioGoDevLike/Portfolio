@@ -20,6 +20,9 @@ const Home = () =>{
 
     return (
     <div className="container">
+        <div className="image-container">            
+                    <img src={myPicture} alt="myPicture" className="myImage"/>
+            </div>
         <div className="home-container">
             <div className="text-container">
                 <h1 className="info">
@@ -42,9 +45,7 @@ const Home = () =>{
                 <Link to="/contact" className='contact-button'>CONTACT ME</Link>
             </div>
         </div>
-        <div className="image-container">            
-                <img src={myPicture} alt="myPicture" className="myImage"/>
-        </div>
+
     </div>
 
     );

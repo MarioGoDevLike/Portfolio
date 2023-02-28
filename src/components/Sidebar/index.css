@@ -124,10 +124,8 @@ li svg:hover{
     }
     li a{
         font-size: 25px;
-        height: 6.5vh;
+        height: 7vh;
     }
-    .navbar-container{
-        height: 95vh;
-    }
+    
 }
 
