@@ -31,7 +31,7 @@
     width: 60px;
 }
 .navbar a{
-        width: 80px;
+        width: 60px;
         font-size: 22px;
         color: #4d4d4e;
         display: flex;
@@ -59,7 +59,7 @@
     margin: 0;
 }
 li a{
-    width: 65px;
+    width: 60px;
     height: 5vh;    
     display: flex;
     flex-direction: column;
@@ -87,9 +87,19 @@ li svg:hover{
 
 @media only screen and (max-width:1090px){
     .navbar a{
-        width: 8vw;
+        width: 80px;
         font-size: 26px;
         height: 60px;
+    }
+    li a{
+        display: flex;
+        justify-content: center;
+        width: 80px;
+        font-size: 20px;
+    }
+    .myLogo{
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -114,17 +124,23 @@ li svg:hover{
 
 @media only screen and (max-width:520px) {
     .navbar a{
-        width: 65px;
-        height: 35px;
-        font-size: 22px;
+        width: 80px;
+        height: 45px;
+        font-size: 30px;
+    }
+    .logo{
+        display: flex;
+        justify-content: end;
+        width: 60px;
     }
     .myLogo{
-        width: 50px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
     li a{
         font-size: 25px;
-        height: 7vh;
+        width: 80px;
+        height: 5vh;
     }
     
 }
