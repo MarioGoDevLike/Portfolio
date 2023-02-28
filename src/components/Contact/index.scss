@@ -1,10 +1,14 @@
+.Main-container{
+    height: 100vh;
+    width: 100vw;
+}
+.contact-form{
+    width: 50vw;
+}
 .contact-container{
     display: flex;
     flex-direction: column;
-    align-items: start;
-    height: 100vh;
-    width: 100vw;
-    margin-left: 100px;
+    width: 60vw;
 
 }
 .text-zone{
@@ -34,15 +38,15 @@
 .mainInfos{
     display: flex;
     flex-direction: row;
-    width: 23.2vw;
-    justify-content: space-between;
+    width: 330px;
+    justify-content:space-between;
 }
 
 .subject-cont{
-    width:22.9vw;
+    width: 322px;
 }
 .message-cont{
-    width: 22.9vw;
+    width: 324px;
 }
 input, textarea{
     height: 30px;
@@ -56,7 +60,7 @@ textarea{
 }
 
 .btn_submit{
-    width: 23.5vw;
+    width: 325px;
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -72,10 +76,3 @@ textarea{
     cursor: pointer;
 }
 
-Main-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.map-wrap{
-}

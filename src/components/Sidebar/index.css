@@ -90,7 +90,7 @@ li svg:hover{
 @media only screen and (max-width:1090px){
     .navbar a{
         width: 8vw;
-        font-size: 3vw;
+        font-size: 26px;
         height: 60px;
     }
 }
