@@ -12,15 +12,13 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
 }
-.text-container{
-    
-}
+
 .home-container h2{
     font-size: 17px;
 }
 
 .container{
-    width: 90vw;
+    width: 70vw;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -31,13 +29,10 @@
 .image-container{
     display: flex;
     justify-content: center;
+    width: 40vw;
 }
 
-.myImage{
-    width: 500px;
-    display: flex;
-    height: 500pxs;
-}
+
 .h2front{
     padding-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -64,10 +59,9 @@
     animation: bounceIn 1s forwards;
 }
 
-@media only screen and (max-width: 1260px){
+@media only screen and (max-width: 1320px){
     .myImage{
-        width: 400px;
-        height: 400px;
+        width: 40vw;
     }
     .home-container h1{
         font-size: 45px;
@@ -154,4 +148,10 @@
         flex-direction: column;
         justify-content: center;
     }
+}
+@media only screen and (max-width:1550px){
+    .container{
+        width: 90vw;
+    }
+    
 }

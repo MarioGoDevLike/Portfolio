@@ -29,7 +29,7 @@ const Contact = () => {
 
     return(
         <div className='Main-container'>
-            <div className='container contact-container'>
+            <div className='contact-container'>
                 <div className='text-zone'>
                     <h1 className="contactme">
                             <AnimatedLetters letterClass={letterClass}
