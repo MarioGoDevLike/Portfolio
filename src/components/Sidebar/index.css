@@ -123,6 +123,9 @@ li svg:hover{
 }
 
 @media only screen and (max-width:520px) {
+    .navbar-container{
+        height: 95vh;
+    }
     .navbar a{
         width: 80px;
         height: 45px;
