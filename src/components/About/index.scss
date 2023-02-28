@@ -54,8 +54,7 @@
 
 .stage-cube-container{
     display: flex;
-    align-items: center;
-        
+    align-items: center;  
 }
 
 
@@ -136,6 +135,20 @@
     .stage-cube-container{
         width: 100px;
         height: 100px;
+    }
+}
+@media only screen and (max-width:1220px){
+    .info-container p{
+        font-size: 2vw;
+        line-height: 25px;  
+     }
+}
+
+@media only screen and (max-width:720px) {
+    .info-container p{
+       font-size: 15px;
+       line-height: 20px;
+       
     }
 }
 
