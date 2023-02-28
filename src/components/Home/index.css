@@ -72,9 +72,7 @@
     .work h2{
         font-size: 20px;
     }    
-    .contact-button{
-
-    }
+    
 }
 
 @media only screen and (max-width:1090px){
@@ -104,21 +102,23 @@
     }  
     .contact-button{
         padding: 10px;
+        font-size: 10px;
     }
 }
 
 @media only screen and (max-width:520px){
     .myImage{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
     }
     .home-container h1{
-        font-size: 3vw;
+        font-size: 5vw;
     }
     .work h2{
         font-size: 2vw;
     }  
     .contact-button{
-        padding: 5px;
+        font-size: 10px;
+        padding: 10px;
     }
 }
