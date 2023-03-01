@@ -5,6 +5,23 @@ import emailjs from "@emailjs/browser";
 import { IframeHTMLAttributes } from 'react';
 
 const Contact = () => {
+
+    const contactFormItems = [{
+        listClassName:"name-cont",
+        inputClassName:"name-email-cont",
+        type:"text",
+        name:"user_name",
+        placeholder:"Name",
+    },{
+        listClassName:"",
+        inputClassName:"name-email-cont",
+        type:"text",
+        name:"user_email",
+        placeholder:"Email", 
+    },
+]
+
+
     const [letterClass, setLetterClass] = useState('text-animate')
     const form = useRef();
 
@@ -44,19 +61,16 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                         <ul className='form-container'>
                             <div className='mainInfos'>
-                                <li className='name-cont'>
-                                    <input className='name-email-cont' type="text" name="user_name" placeholder='Name' required/>
+                                {contactFormItems.map((item) =>{
+                                    return(
+                                        <li className={item.listClassName}>
+                                    <input className={item.inputClassName} type={item.type} name={item.name} placeholder={item.placeholder} required/>
                                 </li>
-                                <li>
-                                    <input className='name-email-cont'
-                                    type="email"
-                                    name="user_email"
-                                    placeholder='Email'
-                                    required/>
-                                </li>
+                                    )
+                                })}
                             </div>
                             <li >
-                                <input className='subject-cont' placeholder="Subject" type="text" name="subject" required />
+                                <input className='subject-cont'  type="text" name="subject"  placeholder="Subject" required />
                             </li>
                             <li>
                                 <textarea className='message-cont'
