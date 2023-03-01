@@ -1,7 +1,7 @@
 .Main-container{
     display: flex;
     justify-content: center;
-    width: 80vw;
+    width: 90vw;
 
 }
 .contact-form{
@@ -90,5 +90,44 @@ textarea{
         justify-content: center;
     }
 }
-
+@media only screen and (max-width:400px){
+    .text-zone{
+        width: 20vw;
+    }
+    .text-zone h1{
+        font-size: 6vw;
+    }
+    .form-container{
+        width: 2vw;
+    }
+    .subject-cont{
+        width: 200px;
+        line-height: 10px;
+    }
+    .message-cont{
+        width: 200px;
+        height: 100px;
+    }
+    textarea{
+        min-height: 100px;
+    }
+    .name-email-cont{
+        font-size: 10px;
+        height: 30px;
+        width: 94px;
+    }
+    .mainInfos{
+        width: 53vw;
+    }
+    .btn_submit{
+        justify-content: start;
+        width: 130px;
+    }
+    .Main-container{
+        width: 90vw;
+        display: flex;
+        align-items: center;
+    }
+    
+}
 

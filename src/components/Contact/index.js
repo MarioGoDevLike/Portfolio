@@ -45,10 +45,10 @@ const Contact = () => {
                         <ul className='form-container'>
                             <div className='mainInfos'>
                                 <li className='name-cont'>
-                                    <input type="text" name="user_name" placeholder='Name' required/>
+                                    <input className='name-email-cont' type="text" name="user_name" placeholder='Name' required/>
                                 </li>
                                 <li>
-                                    <input
+                                    <input className='name-email-cont'
                                     type="email"
                                     name="user_email"
                                     placeholder='Email'
