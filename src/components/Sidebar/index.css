@@ -26,7 +26,7 @@
     flex-direction: column;
     text-align: center;
     position: fixed;
-    height: 100vh;
+    height: 95vh;
     justify-content: center;
     width: 60px;
 }
@@ -123,6 +123,7 @@ li svg:hover{
 }
 
 @media only screen and (max-width:520px) {
+    
     .navbar-container{
         height: 95vh;
     }
