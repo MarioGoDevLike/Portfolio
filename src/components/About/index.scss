@@ -161,16 +161,31 @@
        line-height: 20px;
     }
     .info-container h1{
-        
         width: 50vw;
         font-size: 40px;
     }
+    .about-container{
+        align-items: flex-start;
+        padding-left: 30px;
+    }
     .stage-cube-container{
         display: flex;
-        align-items: start;
-        width: 30vw;
-        height: 20vh;
+        padding-left: 40px;
+        height: 30vh;
     }
+    .stage-cube-container svg{
+        width: 30px;
+        height: 30px;
+    }
+    .cubespinner{
+        width: 100px;
+        height: 100px;
+    }
+    .cubespinner div{
+        width: 100px;
+        height: 100px;
+    }
+    
     .logo{
         width: 80px;
     }
