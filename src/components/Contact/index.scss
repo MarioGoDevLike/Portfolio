@@ -1,8 +1,7 @@
 .Main-container{
     display: flex;
     justify-content: center;
-    height: 100vh;
-    width: 70vw;
+    width: 80vw;
 
 }
 .contact-form{
@@ -21,8 +20,8 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .text-zone p{
-    width: 50vw;
-    font-size: 2vw;
+    width: 60vw;
+    font-size: 1.5vw;
     animation: bounceIn 0.6s 0.6s;
 }
 
@@ -75,16 +74,20 @@ textarea{
 }
 
 @media only screen and (max-width:700px){
-    .text-zone p{
-        display: flex;
-        justify-content: center;
-        font-size: 2vw;
+    .text-zone{
+        width: 20vw;
     }
     .text-zone h1{
         font-size: 6vw;
     }
     .form-container{
-        width: 20vw;
+        width: 10vw;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
     }
 }
 

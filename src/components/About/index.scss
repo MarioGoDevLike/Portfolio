@@ -1,15 +1,15 @@
 .info-container{
     font-size: 20px;
-    width: 40vw;
+    width: 50vw;
     display: flex;
     flex-direction: column  ;
     justify-content: center;
 }
 .about-container{
     display: flex;
-    width: 60vw;
-    height: 80vh;
-    justify-content: space-around;
+    width: 80vw;
+    height: 95vh;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
@@ -55,6 +55,7 @@
 .stage-cube-container{
     display: flex;
     align-items: center;  
+    width: 15vw;
 }
 
 
@@ -133,8 +134,8 @@
         width:200px;
     }
     .stage-cube-container{
-        width: 100px;
-        height: 100px;
+        width: 10vw;
+        height: 10vh;
     }
 }
 @media only screen and (max-width:1220px){
@@ -142,6 +143,12 @@
         font-size: 2vw;
         line-height: 25px;  
      }
+     .stage-cube-container{
+        display: flex;
+        align-items: start;
+        width: 30vw;
+        height: 20vh;
+    }
      .logo{
         width: 80px;
     }
@@ -150,17 +157,19 @@
 @media only screen and (max-width:720px) {
     .info-container p{
         width: 300px;
-       font-size: 15px;
+       font-size: 2.3vw;
        line-height: 20px;
     }
     .info-container h1{
-        display: flex;
-        justify-content: center;
+        
         width: 50vw;
         font-size: 40px;
     }
     .stage-cube-container{
-        height: 30vh;
+        display: flex;
+        align-items: start;
+        width: 30vw;
+        height: 20vh;
     }
     .logo{
         width: 80px;
