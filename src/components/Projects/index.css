@@ -1,0 +1,25 @@
+.h1-projects{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.projects{
+    font-size: 4vw;
+}
+.slider-container{
+    width: 100vw;
+}
+
+@media screen and (max-width:768px){
+    .projects{
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5vw;
+    }
+   
+    
+}

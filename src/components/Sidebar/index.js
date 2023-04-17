@@ -3,7 +3,8 @@ import "../Sidebar/index.css"
 import myLogo from "../../assets/images/MLogo2.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faHome, faUser, faFileCode } from "@fortawesome/free-solid-svg-icons";
+
 
 const Sidebar = () => {
     const navbarItems = [{
@@ -25,11 +26,19 @@ const Sidebar = () => {
     {
         exact : "true",
         activeclassname : "active",
+        className:"about-link",
+        to:"/projects",
+        icon:faFileCode,
+        color:"#4d4d4e"
+    },
+    {
+        exact : "true",
+        activeclassname : "active",
         className:"contact-link",
         to:"/contact",
         icon:faEnvelope,
         color:"#4d4d4e"
-    }]
+    }]  
     return (
     
     <div className="navbar-container">
