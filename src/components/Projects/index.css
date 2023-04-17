@@ -20,6 +20,13 @@
         align-items: center;
         font-size: 5vw;
     }
+    .h1-projects{
+        height: 15vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
    
     
 }
